@@ -1,0 +1,46 @@
+{
+	// Place your nhdlite.github.io workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"goodBook": {
+		"scope": "html",
+		"prefix": "goodBook",
+		"body": [
+			"<li>&#9989; &#128077; : ${1:book} - <a href=\"${2:book_link}\" target=\"_blank\">Link</a></li>"
+		]
+	},
+	"badBook": {
+		"scope": "html",
+		"prefix": "badBook",
+		"body": [
+			"<li>&#9989; &#128078; : ${1:book} - <a href=\"${2:book_link}\" target=\"_blank\">Link</a></li>"
+		]
+	},
+	"newBook": {
+		"scope": "html",
+		"prefix": "newBook",
+		"body": [
+			"<li>&#128306; &#129335; : ${1:book} - <a href=\"${2:book_link}\" target=\"_blank\">Link</a></li>"
+		]
+	},
+	"mehBook": {
+		"scope": "html",
+		"prefix": "mehBook",
+		"body": [
+			"<li>&#9989; &#128532; : ${1:book} - <a href=\"${2:book_link}\" target=\"_blank\">Link</a></li>"
+		]
+	},
+}
